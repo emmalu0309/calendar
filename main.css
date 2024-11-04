@@ -1,0 +1,18 @@
+.head{
+    height: 70px;
+}
+table{
+    height: 800px;
+}
+td,th{
+    border: 1px solid lightgray;
+}
+.calList{
+    height: 500px;
+}
+/* .calSm{
+    
+} */
+ table div{
+    padding-top: 0;
+ }

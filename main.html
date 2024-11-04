@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head row">
+            <div class="col-6">
+                <div class="fs-2 d-flex align-items-center" id="calendarTitle"></div>
+                <div class="button-container">
+                    <button id="prevMonth" class="btn btn-outline-secondary btn-sm">上一月</button>
+                    <button id="nextMonth" class="btn btn-outline-secondary btn-sm">下一月</button>
+                </div>
+            </div>
+            <div class="col-5 d-flex align-items-end">日月週年</div>
+            <div class="col-1 p-0 d-flex flex-column">
+                <div class="mt-2">搜尋</div>
+                <div class="text-sm-center mt-auto">+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-2">
+                <div class="calList">
+                    <div>行事曆列表</div>
+                </div>
+                <div class="calSm">小年曆</div>
+            </div>
+            <div class="col">
+                <table class="w-100 m-0">
+                    <thead>
+                        <tr id="daysOfWeek" class="text-sm-center"></tr>
+                    </thead>
+                    <tbody id="calendarBody" style="vertical-align: top;">
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
